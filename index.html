@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SolRoa.</title>
+    <link rel="stylesheet" href="estilo.css">
+
+    <!-- fuente Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- fuente Montserrat Alternates -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- funte Nunito -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h2 class="logo">Sol<span>Roa.</span></h2>
+         <nav>
+             <a  href="#hero">Home</a>
+             <a  href="#sobre-mi">Sobre Mi</a>
+             <a  href="#servicio">Servicios</a>
+             <a  href="#portafolio">Portafolio</a>
+             <a href="#experiencia">Experiencia</a>
+             <a  href="#footer">Contacto</a>
+         </nav>
+     </header>
+    <main>
+        <section id="hero" class="hero">
+            <div class="cont-redes-texto">
+                <div class="hero-redes">
+                    <a class="redes" href="https://www.facebook.com/profile.php?id=61550828632528&sk=about">
+                        <svg class="facebook" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="24px" height="24px">    <path d="M17.525,9H14V7c0-1.032,0.084-1.682,1.563-1.682h1.868v-3.18C16.522,2.044,15.608,1.998,14.693,2 C11.98,2,10,3.657,10,6.699V9H7v4l3-0.001V22h4v-9.003l3.066-0.001L17.525,9z"/></svg>
+                    </a>
+                
+                    <a class="redes" href="https://twitter.com/SolRoa8">
+                        <svg class="twitter" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                        </svg>
+                    </a>
+
+                    <a class="redes" href="https://www.instagram.com/solciroa/">
+                        <svg class="instagram" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                        </svg>
+                    </a>
+
+                    <a class="redes" href="https://www.linkedin.com/in/mar%C3%ADa-sol-roa-750ba7277/">
+                        <svg class="link" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 30 30" width="30px" height="30px">    <path d="M9,25H4V10h5V25z M6.501,8C5.118,8,4,6.879,4,5.499S5.12,3,6.501,3C7.879,3,9,4.121,9,5.499C9,6.879,7.879,8,6.501,8z M27,25h-4.807v-7.3c0-1.741-0.033-3.98-2.499-3.98c-2.503,0-2.888,1.896-2.888,3.854V25H12V9.989h4.614v2.051h0.065 c0.642-1.18,2.211-2.424,4.551-2.424c4.87,0,5.77,3.109,5.77,7.151C27,16.767,27,25,27,25z"/></svg>
+                    </a>
+                </div>
+
+                <div class="hero-texto">
+                    <h3>Hola yo soy</h3>
+                    <h1>María Sol Roa</h1>
+                    <p class="oscuro">Professional Freelancer & Front-end Developer</p>
+                    <p class="claro">Hola! Soy Front-end Developer y cuento con una sólida formación académica. Mi búsqueda constante de nuevas habilidades me capacitan para diseñar experiencias digitales en el ámbito Frontend.</p>
+                    <a href="#footer"><button>Contáctame</button></a>
+                </div>
+            </div> 
+                <img class="hero-img" src="imagenes/foto-hero.png">
+        </section>
+
+
+
+        <section id="sobre-mi" class="sobre-mi">
+            <div class="cont-clip"></div>
+            <div class="cont-img">
+                <img src="imagenes/foto-seccion.png">
+            </div>
+            <div class="sobre-texto">
+                <h3>Sobre Mi</h3>
+                <h1>Porque Contratarme!</h1>
+                <p>Con amplia experiencia en diseño web y mi formación actual en una tecnicatura en programación en la UTN respalda mi compromiso con la mejora constante y la innovación. Contratarme significa acceder a un profesional versátil y apasionado que fusiona creatividad y habilidades técnicas para lograr resultados impactantes en cada proyecto.</p>
+                <!-- barras -->
+                <div class="cont-barras">
+
+                    <div class="seccion">
+                        <div class="texto">
+                            <span>Ui/UX Desing</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="barra barra__85"></div>
+                    </div>
+
+                    <div class="seccion">
+                        <div class="texto">
+                            <span>Web Desing</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="barra barra__75"></div>
+                    </div>
+
+                    <div class="seccion">
+                        <div class="texto">
+                            <span>Html/Css</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="barra barra__90"></div>
+                    </div>
+
+                    <div class="seccion">
+                        <div class="texto">
+                            <span>Word Press</span>
+                            <span>65%</span>
+                        </div>
+                        <div class="barra barra__65"></div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+
+
+        <section id="servicio" class="servicio">
+            <div class="servicio-texto">
+                <h3>Servicios</h3>
+                <h1>Mis Servicios</h1>
+            </div>
+            <div class="reng">
+    
+                <div class="tarjeta">
+                    <div class="int-tarjeta">
+                        <div class="icono">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#fff" class="bi bi-paint-bucket" viewBox="0 0 16 16">
+                                <path d="M6.192 2.78c-.458-.677-.927-1.248-1.35-1.643a2.972 2.972 0 0 0-.71-.515c-.217-.104-.56-.205-.882-.02-.367.213-.427.63-.43.896-.003.304.064.664.173 1.044.196.687.556 1.528 1.035 2.402L.752 8.22c-.277.277-.269.656-.218.918.055.283.187.593.36.903.348.627.92 1.361 1.626 2.068.707.707 1.441 1.278 2.068 1.626.31.173.62.305.903.36.262.05.64.059.918-.218l5.615-5.615c.118.257.092.512.05.939-.03.292-.068.665-.073 1.176v.123h.003a1 1 0 0 0 1.993 0H14v-.057a1.01 1.01 0 0 0-.004-.117c-.055-1.25-.7-2.738-1.86-3.494a4.322 4.322 0 0 0-.211-.434c-.349-.626-.92-1.36-1.627-2.067-.707-.707-1.441-1.279-2.068-1.627-.31-.172-.62-.304-.903-.36-.262-.05-.64-.058-.918.219l-.217.216zM4.16 1.867c.381.356.844.922 1.311 1.632l-.704.705c-.382-.727-.66-1.402-.813-1.938a3.283 3.283 0 0 1-.131-.673c.091.061.204.15.337.274zm.394 3.965c.54.852 1.107 1.567 1.607 2.033a.5.5 0 1 0 .682-.732c-.453-.422-1.017-1.136-1.564-2.027l1.088-1.088c.054.12.115.243.183.365.349.627.92 1.361 1.627 2.068.706.707 1.44 1.278 2.068 1.626.122.068.244.13.365.183l-4.861 4.862a.571.571 0 0 1-.068-.01c-.137-.027-.342-.104-.608-.252-.524-.292-1.186-.8-1.846-1.46-.66-.66-1.168-1.32-1.46-1.846-.147-.265-.225-.47-.251-.607a.573.573 0 0 1-.01-.068l3.048-3.047zm2.87-1.935a2.44 2.44 0 0 1-.241-.561c.135.033.324.11.562.241.524.292 1.186.8 1.846 1.46.45.45.83.901 1.118 1.31a3.497 3.497 0 0 0-1.066.091 11.27 11.27 0 0 1-.76-.694c-.66-.66-1.167-1.322-1.458-1.847z"/>
+                              </svg>               
+                        </div>
+                        <h2>Diseño Gráfico</h2>
+                        <p>Desde logotipos distintivos hasta piezas publicitarias impactantes, estoy aquí para dar vida a tus visiones.</p>
+                    </div>
+                </div>
+    
+                <div class="tarjeta">
+                    <div class="int-tarjeta">
+                        <div class="icono">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#fff" class="bi bi-tv" viewBox="0 0 16 16">
+                                <path d="M2.5 13.5A.5.5 0 0 1 3 13h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zM13.991 3l.024.001a1.46 1.46 0 0 1 .538.143.757.757 0 0 1 .302.254c.067.1.145.277.145.602v5.991l-.001.024a1.464 1.464 0 0 1-.143.538.758.758 0 0 1-.254.302c-.1.067-.277.145-.602.145H2.009l-.024-.001a1.464 1.464 0 0 1-.538-.143.758.758 0 0 1-.302-.254C1.078 10.502 1 10.325 1 10V4.009l.001-.024a1.46 1.46 0 0 1 .143-.538.758.758 0 0 1 .254-.302C1.498 3.078 1.675 3 2 3h11.991zM14 2H2C0 2 0 4 0 4v6c0 2 2 2 2 2h12c2 0 2-2 2-2V4c0-2-2-2-2-2z"/>
+                              </svg>
+                        </div>
+                        <h2>Diseño Web</h2>
+                        <p>Transformo tus conceptos en experiencias digitales cautivadoras.</p>
+                    </div>
+                </div>
+    
+                <div class="tarjeta">
+                    <div class="int-tarjeta">
+                        <div class="icono">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#fff" class="bi bi-bezier2" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 2.5A1.5 1.5 0 0 1 2.5 1h1A1.5 1.5 0 0 1 5 2.5h4.134a1 1 0 1 1 0 1h-2.01c.18.18.34.381.484.605.638.992.892 2.354.892 3.895 0 1.993.257 3.092.713 3.7.356.476.895.721 1.787.784A1.5 1.5 0 0 1 12.5 11h1a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1-1.5 1.5h-1a1.5 1.5 0 0 1-1.5-1.5H6.866a1 1 0 1 1 0-1h1.711a2.839 2.839 0 0 1-.165-.2C7.743 11.407 7.5 10.007 7.5 8c0-1.46-.246-2.597-.733-3.355-.39-.605-.952-1-1.767-1.112A1.5 1.5 0 0 1 3.5 5h-1A1.5 1.5 0 0 1 1 3.5v-1zM2.5 2a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1zm10 10a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1z"/>
+                              </svg>
+                        </div>
+                        <h2>Diseño Ux/Ui</h2>
+                        <p>Como diseñador UX/UI, mi enfoque radica en crear interfaces que optimizan la interacción del usuario.</p>
+                    </div>
+                </div>
+    
+            </div>
+    
+            <div class="reng">
+    
+                <div class="tarjeta">
+                    <div class="int-tarjeta">
+                        <div class="icono">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#fff" class="bi bi-window" viewBox="0 0 16 16">
+                                <path d="M2.5 4a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm2-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm1 .5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1z"/>
+                                <path d="M2 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H2zm13 2v2H1V3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1zM2 14a1 1 0 0 1-1-1V6h14v7a1 1 0 0 1-1 1H2z"/>
+                              </svg>       
+                        </div>
+                        <h2>Html/Css</h2>
+                        <p>Convierto tus conceptos en realidad digital a través de la programación en HTML y CSS.</p>
+                    </div>
+                </div>
+    
+                <div class="tarjeta">
+                    <div class="int-tarjeta">
+                        <div class="icono">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#fff" class="bi bi-pie-chart" viewBox="0 0 16 16">
+                                <path d="M7.5 1.018a7 7 0 0 0-4.79 11.566L7.5 7.793V1.018zm1 0V7.5h6.482A7.001 7.001 0 0 0 8.5 1.018zM14.982 8.5H8.207l-4.79 4.79A7 7 0 0 0 14.982 8.5zM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8z"/>
+                              </svg>    
+                        </div>
+                        <h2>Análisis de Negocios</h2>
+                        <p>Estoy comprometida en convertir datos en soluciones que impulsen el crecimiento y el éxito de tu empresa.</p>
+                    </div>
+                </div>
+    
+                <div class="tarjeta">
+                    <div class="int-tarjeta">
+                        <div class="icono">
+                            <svg width="30px" height="30px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="#fff" class="bi bi-megaphone">
+        
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+                                
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+                                
+                                <g id="SVGRepo_iconCarrier"> <path d="M13 2.5a1.5 1.5 0 0 1 3 0v11a1.5 1.5 0 0 1-3 0v-.214c-2.162-1.241-4.49-1.843-6.912-2.083l.405 2.712A1 1 0 0 1 5.51 15.1h-.548a1 1 0 0 1-.916-.599l-1.85-3.49a68.14 68.14 0 0 0-.202-.003A2.014 2.014 0 0 1 0 9V7a2.02 2.02 0 0 1 1.992-2.013 74.663 74.663 0 0 0 2.483-.075c3.043-.154 6.148-.849 8.525-2.199V2.5zm1 0v11a.5.5 0 0 0 1 0v-11a.5.5 0 0 0-1 0zm-1 1.35c-2.344 1.205-5.209 1.842-8 2.033v4.233c.18.01.359.022.537.036 2.568.189 5.093.744 7.463 1.993V3.85zm-9 6.215v-4.13a95.09 95.09 0 0 1-1.992.052A1.02 1.02 0 0 0 1 7v2c0 .55.448 1.002 1.006 1.009A60.49 60.49 0 0 1 4 10.065zm-.657.975 1.609 3.037.01.024h.548l-.002-.014-.443-2.966a68.019 68.019 0 0 0-1.722-.082z"/> </g>
+                                
+                                </svg>                 
+                        </div>
+                        <h2>SEO Marketing</h2>
+                        <p>Mi enfoque es impulsar tu visibilidad en línea y mejorar tu posición en los resultados de búsqueda. </p>
+                    </div>
+                </div>
+    
+            </div>
+        </section>
+
+
+
+        <section id="portafolio" class="portafolio">
+            <div class="arriba">
+                <div class="iz">
+                    <h3>Portafolio</h3>
+                    <h1>Ultimos Proyectos</h1>
+                </div>
+            </div>
+            <div class="galeria">
+    
+                <div class="g">
+                    <a href="https://solroa.github.io/Clipboard-Landing-Page/" target="_blank">
+                        <img src="imagenes/g1.jpg" alt="">
+                    </a>
+                    <div class="tex">
+                        <p class="g-oscuro">Creativo challenge de Landing Page</p>
+                        <p class="g-claro">Desarrollo web Front-end</p>
+                    </div>
+                </div>
+    
+                <div class="g">
+                    <a href="https://solroa.github.io/Fylo-LandingPage/" target="_blank">
+                        <img src="imagenes/g2.jpg" alt="">
+                    </a>
+                    <div class="tex">
+                        <p class="g-oscuro">Creativo chellegne de Landing Page</p>
+                        <p class="g-claro">Desarrollo web Front-end</p>
+                    </div>
+                </div>
+    
+                <div class="g">
+                    <a href="https://solroa.github.io/Huddle-landing-page/" target="_blank">
+                        <img src="imagenes/g3.jpg" alt="">
+                    </a>
+                    <div class="tex">
+                        <p class="g-oscuro">Creativo challegne de Landing Page</p>
+                        <p class="g-claro">Desarrollo web Front-end</p>
+                    </div>
+                </div>
+    
+            </div>
+            <div class="flechas">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill=#ACB2BE class="bi bi-arrow-left" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill=#ACB2BE class="bi bi-arrow-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                  </svg>
+            </div>
+        </section>
+
+
+
+        
+        <section id="experiencia" class="experiencia">
+            <div class="ex-titulo">
+                <h3>Experiencia</h3>
+                <h1>Experiencia Laboral</h1>
+            </div>
+            <div class="linea-tiempo">
+                <div class="contenedor-central">
+                    <div class="contenedor-iz">
+                        <div class="circulo">
+                            <p>01</p>
+                        </div>
+                        <div class="texto-grande grande-iz">
+                            <p>He tenido la oportunidad de colaborar en proyectos creativos emocionantes. Trabajar en conjunto nos permitió combinar nuestras habilidades y perspectivas únicas para crear soluciones visuales impactantes. Además, he aprendido a utilizar herramientas y software de diseño avanzado, lo que ha mejorado mi capacidad para crear diseños innovadores y atractivos. En resumen, formar parte de un equipo de diseñadores gráficos ha enriquecido mi conjunto de habilidades y mi aprecio por la colaboración en el mundo del diseño.</p>
+                        </div>
+                    </div>
+    
+                    <div class="contenedor-dr">
+                        <div class="texto-chico chico-iz">
+                            <h2>Diseño Gráfico</h2>
+                            <p class="color">Equipo de Diseño</p>
+                            <p class="nocolor">Marzo 2020- Agosto 2020</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="contenedor-central">
+                        <div class="contenedor-iz">
+                            <div class="texto-chico chico-dr">
+                                <h2>Diseño UX/UI</h2>
+                                <p class="color">Equipo de Diseño</p>
+                                <p class="nocolor">Agosto 2020- Marzo 2021</p>
+                            </div>
+                        </div>
+    
+                        <div class="contenedor-dr">
+                            <div class="circulo c-dos">
+                                <p>02</p>
+                            </div>
+                            <div class="texto-grande grande-dr">
+                                <p>Durante el año 2020, tuve la oportunidad de desempeñarme como diseñadora UX/UI, enfrentando desafíos únicos en un entorno de trabajo remoto debido a la pandemia. A lo largo de ese año, participé en proyectos clave, donde mi enfoque en la investigación de usuarios y la creación de interfaces centradas en la experiencia del usuario demostró ser esencial para el éxito del equipo. Mi capacidad para adaptarme a las circunstancias cambiantes y mantener la calidad de diseño a pesar de las dificultades reforzó mi compromiso con la disciplina.</p>
+                            </div>
+                        </div>
+                </div>
+    
+                <div class="contenedor-central">
+                    <div class="contenedor-iz">
+                        <div class="circulo">
+                            <p>03</p>
+                        </div>
+                        <div class="texto-grande grande-iz">
+                            <p>He tenido el privilegio de trabajar en una amplia variedad de proyectos. Esta experiencia me ha permitido perfeccionar mis habilidades técnicas y adaptarme a las últimas tendencias del desarrollo web. Trabajar de manera independiente me ha brindado la flexibilidad para colaborar con clientes de todo el mundo y llevar a cabo proyectos desafiantes, lo que ha fortalecido mi capacidad para resolver problemas y entregar soluciones web de alta calidad. Quiero seguir impulsando mi crecimiento profesional y mi compromiso con la excelencia en el desarrollo web freelance.</p>
+                        </div>
+                    </div>
+    
+                    <div class="contenedor-dr">
+                        <div class="texto-chico chico-iz">
+                            <h2>Web Developer</h2>
+                            <p class="color">Proyectos</p>
+                            <p class="nocolor">Septiembre 2021- Agosto 2023</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="footer">
+        <h2 class="logo">Sol<span>Roa.</span></h2>
+        <div class="footer-redes">
+            <div class="circulo-redes">
+                <a class="redes" href="https://www.facebook.com/profile.php?id=61550828632528&sk=about">
+                    <svg class="facebook" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="24px" height="24px">    <path d="M17.525,9H14V7c0-1.032,0.084-1.682,1.563-1.682h1.868v-3.18C16.522,2.044,15.608,1.998,14.693,2 C11.98,2,10,3.657,10,6.699V9H7v4l3-0.001V22h4v-9.003l3.066-0.001L17.525,9z"/></svg>
+                </a>
+            </div>
+
+            <div class="circulo-redes">
+                <a class="redes" href="https://twitter.com/SolRoa8">
+                    <svg class="twitter" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                    <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                    </svg>
+                </a>
+            </div>
+
+            <div class="circulo-redes">
+                <a class="redes" href="https://www.instagram.com/solciroa/">
+                    <svg class="instagram" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                    </svg>
+                </a>
+            </div>
+
+            <div class="circulo-redes">
+                <a class="redes" href="https://www.linkedin.com/in/mar%C3%ADa-sol-roa-750ba7277/">
+                    <svg class="link" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 30 30" width="30px" height="30px">    <path d="M9,25H4V10h5V25z M6.501,8C5.118,8,4,6.879,4,5.499S5.12,3,6.501,3C7.879,3,9,4.121,9,5.499C9,6.879,7.879,8,6.501,8z M27,25h-4.807v-7.3c0-1.741-0.033-3.98-2.499-3.98c-2.503,0-2.888,1.896-2.888,3.854V25H12V9.989h4.614v2.051h0.065 c0.642-1.18,2.211-2.424,4.551-2.424c4.87,0,5.77,3.109,5.77,7.151C27,16.767,27,25,27,25z"/></svg>
+                </a>
+            </div>
+        </div>
+
+        <h1>solroa088@gmail.com</h1>
+        <nav>
+            <a  href="#hero">Home</a>
+            <a  href="#sobre-mi">Sobre Mi</a>
+            <a  href="#servicio">Servicios</a>
+            <a  href="#portafolio">Portafolio</a>
+            <a href="#experiencia">Experiencia</a>
+            <a  href="#footer">Contacto</a>
+        </nav>
+
+    </footer>
+</body>
+</html>
